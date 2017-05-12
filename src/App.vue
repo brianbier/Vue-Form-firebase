@@ -2,8 +2,8 @@
   <div id="app">
     <img class="me" src="./assets/brian.jpg">
     <div class="text">
-      <p>Join me for drinks today! </p>
-      <p>Location: </p>
+      <p>Join me for drinks today! After 5 pm </p>
+      <p>Location: 60 E 41st St, New York, NY 10017</p>
       <p>Fill out the form below to stay in touch or you can always follow me on instagram!<br /> There is some pretty cool stuff there.</p>
     </div>
     <ul>
