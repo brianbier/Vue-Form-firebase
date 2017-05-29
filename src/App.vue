@@ -13,6 +13,11 @@
         </a>
       </li>
     </ul>
+    <ul>
+      <li><router-link to="/">Home</router-link></li>
+      <li><router-link to="/hello">Hello</router-link></li>
+      <li><router-link to="/projects">Projects</router-link></li>
+    </ul>
     <router-view></router-view>
   </div>
 </template>

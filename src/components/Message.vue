@@ -5,7 +5,7 @@
     </div>
     <div class="contact_list">
       <ul>
-        <single-contact :contact="users" @contactsData="users = $event"></single-contact>
+        <single-contact :contact="users"></single-contact>
       </ul>
     </div>
   </div>
@@ -16,6 +16,7 @@ import Form from './Form'
 import Contact from './Contact'
 // import Vue from 'vue'
 import firebase from 'firebase'
+import { mapGetters } from 'vuex'
 // import vuefire from 'vuefire'
 // Vue.use(vuefire)
 // Initialize Firebase
@@ -34,6 +35,11 @@ export default {
   components: {
     'contact-form': Form,
     'single-contact': Contact
+  },
+  computed: {
+    ...mapGetters([
+      'projects'
+    ])
   }
 }
 </script>
